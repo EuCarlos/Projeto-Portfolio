@@ -1,6 +1,6 @@
 # Projeto-Portfolio
 <h3> No momento está em fase de construção </h3>
-<p> Mas a pagina já está aberta, <a href="https://eucarlos.github.io/Projeto-Portfolio/">Clique aqui</a> para ser direcionado para a pagina </p>
+<p> Mas a pagina já está aberta, <a href="https://eucarlos.github.io/Projeto-Portfolio/">Clique aqui</a> para ser direcionado para a pagina. </p>
 <h3>TECNOLOGIAS UTILIZADAS NESTE PROJETO: </h3>
   
 HTML | CSS | JavaScript
