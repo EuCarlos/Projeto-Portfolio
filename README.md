@@ -12,8 +12,8 @@ HTML | CSS | JavaScript
 
 <h3> Você tem o direito de: </h3>
 <ul>
-  <li><b>Compartilhar —</b> copiar e redistribuir o material em qualquer suporte ou formato</li>
-  <li><b>Adaptar —</b> remixar, transformar, e criar a partir do material </li>
+  <li><b>Compartilhar —</b> copiar e redistribuir o material em qualquer suporte ou formato.</li>
+  <li><b>Adaptar —</b> remixar, transformar, e criar a partir do material. </li>
 </ul>
 <h3> De acordo com os termos seguintes:</h3>
 <ul>
