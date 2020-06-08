@@ -1,7 +1,7 @@
 # Projeto-Portfolio
 <h3> No momento está em fase de construção </h3>
 <p> Mas a pagina já está aberta, <a href="https://eucarlos.github.io/Projeto-Portfolio/">Clique aqui</a> para ser direcionado para a pagina. </p>
-<h3>TECNOLOGIAS UTILIZADAS NESTE PROJETO: </h3>
+<h3>TECNOLOGIAS UTILIZADAS NESTE PROJETO:</h3>
   
 HTML | CSS | JavaScript
 :---: | :---: | :---:
@@ -13,7 +13,7 @@ HTML | CSS | JavaScript
 <h3> Você tem o direito de: </h3>
 <ul>
   <li><b>Compartilhar —</b> copiar e redistribuir o material em qualquer suporte ou formato.</li>
-  <li><b>Adaptar —</b> remixar, transformar, e criar a partir do material. </li>
+  <li><b>Adaptar —</b> remixar, transformar, e criar a partir do material.</li>
 </ul>
 <h3> De acordo com os termos seguintes:</h3>
 <ul>
