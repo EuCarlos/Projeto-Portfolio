@@ -1,4 +1,7 @@
 # Projeto-Portfolio
+<p align="center">
+  <img width="100" src="https://i.pinimg.com/originals/cf/6a/38/cf6a3872dd21637a42594ca709769705.gif">
+</p>
 <h3> No momento está em fase de construção </h3>
 <p> Mas a pagina já está aberta, <a href="https://eucarlos.github.io/Projeto-Portfolio/">Clique aqui</a> para ser direcionado para a pagina. </p>
 <h3>TECNOLOGIAS UTILIZADAS NESTE PROJETO:</h3>
