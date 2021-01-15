@@ -1,0 +1,115 @@
+:root {
+    --yellow-safron: #f8c537;
+    --yellow-goldenroad: #ecb009;
+    --dark-jungle-green: #0D1E24;
+    --gunmetal: #16323c;
+    --white-color: #ffffff;
+    --fonte-principal: 'Source Code Pro', monospace;
+}
+
+/* Base */
+* {margin:0; padding:0; }
+body {background: var(--white-color); color: var(--gunmental);}
+a {color: var(--yellow-safron);}
+a:hover {color: var(--yellow-goldenroad);}
+button {
+    -webkit-font-smoothing: antialiased; background-color: var(--yellow-safron);border: none;
+    border-radius: 0.1875em; color: white; display: inline-block; font-size: 1em; font-weight: bold;
+    line-height: 1; padding: .75em 1em; text-decoration: none;
+}
+button:hover {background-color: var(--yellow-goldenroad); color: white;}
+  
+/* Header */
+.l-header {height: 80px; position: relative; background: var(--dark-jungle-green);}
+.logo {float: left;}
+.logo__title {margin: 0;}
+.logo__link {
+    display: inline-block; text-decoration: none; padding: 0 10px; line-height: 80px;
+    height: 80px; color: var(--white-color); word-wrap: no-wrap;
+}
+.menu-btn {display: none; position: absolute; right: 10px; top: 20px;}
+  
+@media (max-width: 768px) {
+  .logo {float: none;}
+  .menu-btn {display: block;}
+}
+  /*  Menu */
+.menu {float: right;}
+.menu__list {overflow: hidden; padding-left: 0; margin: 0; list-style: none;}
+.menu__item {float: left; text-align: center; text-align: center;}
+.menu__link {
+    display: block; color: var(--white-color); text-decoration: none; line-height: 5em;
+    height: 5em; padding: 0 1.5em; word-wrap: no-wrap; transition: all .3s ease;
+}
+.menu__link:hover, .menu__link:focus {background: var(--yellow-safron); color: var(--white-color);}
+  
+@media (max-width: 768px) {
+  .menu {float: none;}
+  .menu__item {
+      display: block; float: none; -webkit-transform: translateX(-100%); -moz-transform: translateX(-100%);
+      -ms-transform: translateX(-100%); -o-transform: translateX(-100%); transform: translateX(-100%); transition: all .3s ease-out;
+  }
+  .menu__item--play {
+      display: block; -webkit-transform: translateX(0); -moz-transform: translateX(0); -ms-transform: translateX(0);
+      -o-transform: translateX(0); transform: translateX(0);
+  }
+  .menu__item + .menu__item {border-top: 1px solid var(--gunmental);}
+  .menu__link {background: var(--yellow-safron);}
+  .menu__link:hover {background: var(--yellow-goldenroad);}
+}
+
+/* Wrap */
+.wrap {margin-left: auto; margin-right: auto; max-width: 1000px;}
+.l-main .wrap {padding: 0 10px;}
+
+/* Banner */
+.banner, .portfolio {width: 92%; float:left; text-align: center; padding: 3% 4%;}
+.cards {width: 100%; background-color: var(--dark-jungle-green); text-align: left; border-radius: 7px; margin-bottom: 3%;}
+.cards img {border-radius:7px 7px 0 0;}
+.inner {padding: 7%;}
+.inner a {font-size: 1.5em; color: var(--yellow-safron); text-decoration: none;}
+.inner h4 {font-size: 1em; color: var(--white-color); margin-top: 2%;}
+.inner p {margin-top: 6%; color: var(--white-color); line-height: 1.5em;}
+#livro, #autor{font-weight: bold; font-family: var(--fonte-principal); font-weight: 300;}
+#frase {
+    font-size: 1.5em; color:var(--white-color); font-family: var(--fonte-principal); font-weight: 500;
+    text-align: center; margin-left: 15%; margin-right: 15%;
+}
+.banner {background: var(--yellow-safron);}
+
+/* SOBRE E CONTATO*/
+.sobre {background: var(--dark-jungle-green); color: var(--white-color);}
+.contato {background: var(--white-color); color:var(--dark-jungle-green);}
+.sobre, .contato {width:92%; float: left; text-align: center; padding: 3% 4%;}
+.sobre h3, .sobre p, .contato h3, .contato p {
+    margin-top: 1%; margin-bottom: 1%; margin-left: 2%; margin-right: 2%;
+}
+.sobre h4 {color: #f8c537; font-size: 1.3em; margin: 2%;}
+
+/* Rodapé */
+.rodape {width: 92%; float: left; padding: 3% 4%; text-align: center; background-color: var(--dark-jungle-green);}
+.social-icons a {font-size: 1.5em; color: var(--yellow-safron); margin-right: 3%;}
+.social-icon a:last-child {margin-right: 0;}
+.social-icons a:hover {color: var(--yellow-goldenroad);}
+.copyright {margin-top: 2%; color: var(--white-color); font-family: 'arial', sans-serif;}
+h2, h3 {font-family: var(--fonte-principal); font-weight: 500;}
+h3 {font-size: 2em; text-align: center; margin-top: 25%; }
+p {font-family: var(--fonte-principal); font-weight: 300;}
+fieldset {margin: 0;}
+input, textarea {width: 300px; padding: 5px;}
+textarea {height: 180px;}
+.informacaoErro h3 {font-size: 1.2em; text-align: center; margin: 1%;}
+
+@media screen and (min-width: 768px) {
+  .cards {width: 49%; float: left; margin-right: 1%;}
+  .cards:nth-child(2) {margin-right: 0;}
+  .sobre p, .contato p{margin-left: 15%; margin-right: 15%;}
+  fieldset {margin-right: 15%; margin-left: 15%;}
+}
+
+@media screen and (min-width: 960px) {
+  .inner p {font-size: 0.7em;}
+  .cards {width: 23%;}
+  .cards:nth-child(2) {margin-right: 1%;}
+  .cards:nth-child(3) {margin-right: 1%;}
+}
